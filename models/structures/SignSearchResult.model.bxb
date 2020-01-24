@@ -1,17 +1,13 @@
-structure (WordSearchResult) {
+structure (SignSearchResult) {
   description (word search result)
-  property (id) {
+  property (id_photo) {
     type (viv.core.Integer)
     min (Required)
     visibility (Private)
   }
-  property (text) {
+  property (descriprtion) {
     type (viv.core.Text)
     min (Required)
     visibility (Private)
-  }
-  property (meanings) {
-    type (Meanings)
-    min (Required)
   }
 }

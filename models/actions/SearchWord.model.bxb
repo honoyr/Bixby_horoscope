@@ -1,12 +1,12 @@
-action (SearchWord) {
+action (Search) {
   description (search for a word in a dictionary)
   collect {
-    input (word) {
-      type (Word)
+    input () {
+      type (Sign)
       min (Required)
       max (One)
     }
   }
   type (Search)
-  output (WordSearchResult)
+  output (SignSearchResult)
 }
